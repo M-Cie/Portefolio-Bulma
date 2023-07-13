@@ -1,0 +1,16 @@
+{
+  "name": "my-bulma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-sass --output-style expanded --include-path=node_modules/bulma sass/style.scss css/style.css",
+    "start": "npm run build -- --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bulma": "^0.9.4",
+    "node-sass": "^9.0.0"
+  }
+}
