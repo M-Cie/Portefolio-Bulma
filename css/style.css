@@ -1,7 +1,33 @@
 #navbar {
   opacity: 0.5;
 }
+/*  Footer */
 
+#footer {
+  background-color: #423d3d;
+}
+#footer .card {
+background-color: none;
+align-self: flex-start;
+}
+#footer #link{
+  border-left : 1px solid whitesmoke;
+  max-width: 300px;
+}
+#footer .content { 
+  color: whitesmoke;
+}
+#footer .content a {
+color: whitesmoke;
+}
+#footer-title {
+  color: whitesmoke;
+  letter-spacing: 2px;
+  font-size: 3.5rem;
+}
+#footer h4 {
+  color: whitesmoke;
+}
 
 /*! bulma.io v0.9.4 | MIT License | github.com/jgthms/bulma */
 /* Bulma Utilities */
